@@ -14,7 +14,7 @@ def editDist(s1,s2,m,n):
         editDist(s1,s2,m-1,n-1)
     )
 
-str1="Sunday"
+
 str2="Saturday"
 
 print("Edit Distance is:",editDist(str1,str2,len(str1),len(str2)))
